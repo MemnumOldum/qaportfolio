@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Reset -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- Blocks -->
+    <link rel="stylesheet" href="./css/blocks/header.css">
+    <link rel="stylesheet" href="./css/blocks/home.css">
+    <link rel="stylesheet" href="./css/blocks/about-me.css">
+    <link rel="stylesheet" href="./css/blocks/skills-portfolio.css">
+    <link rel="stylesheet" href="./css/blocks/contacts.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="./css/fonts/Gilroy/stylesheet.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="contaner">
+            <nav class="header-nav">
+                
+                <ul>
+                    <li><a href="#home" id="home">Home</a></li>
+                    <li><a href="#about-me">Обо мне</a></li>
+                    <li><a href="#skills">Навыки и портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>    
+                
+            </nav>
+        </div>
+        <div class="border-bottom">
+
+        </div>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="container">
+                <div class="home-content">
+
+                    <h1 class="person-name">АРТЁМ МАНКЕВИЧ</h1>
+
+                    <div class="major-age-city">QA engineer<br>37 лет, Батуми</div>
+
+                    <div class="page-language">
+                        <div class="rus-language">RU |&nbsp</div><a href="#">ENG</a>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="container">
+                <div class="home-img">
+                    <img src="./img/home/person_photo.png" alt="Home img">
+                </div>
+                
+            </div>
+        </section>
+        <section class="about-me">
+            <div class="container">
+                <div class="about-content">
+                    <h2 class="about-heading" id="about-me">Обо мне</h2>
+                    <div class="about-text">
+                        <p>Привет, я Артём. Некоторое время назад я заинтересовался тестированием. И сейчас продолжаю самообучение в этой области.</p>
+                        <p>Я создаю эту страницу, чтобы лучше понимать HTML и CSS.</p>
+                        <p>Я буду размещать здесь ссылки на артефакты моего обучения.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills-portfolio">
+            <div class="container">
+                <div class="skills-portfolio-content">
+                    <h2 class="skills-portfolio-heading" id="skills">Навыки и портфолио</h2>
+                    <p class="skills-portfolio-info">В настоящее время я осваиваю следующие навыки:</p>                                    
+                </div>
+                <div class="skills-portfolio-points">
+                    <div class="point">
+                        <img class="point-img" src="./img/points/Testing-Theory.jpg" alt="Testing theory">
+                        <h3 class="point-heading">Теория тестирования</h3>
+                        <div class="point-text">
+                            <p>Принципы тестирования, этапы тестирования, требования, баг, серьезность и приоритет, основные типы тестирования программного обеспечения, дизайн тестирования, методы тестирования</p>
+                            <p>Книги:</p>
+                            <p>"tестирование dot com" - Роман Савин</p>                           
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img class="point-img" src="./img/points/SQL.jpg" alt="SQL">
+                        <h3 class="point-heading">SQL</h3>
+                        <div class="point-text">
+                            <p>Типы баз данных</p>
+                            <p>Подключение к базе данных</p>
+                            <p>Простые запросы на выборку</p>
+                            <p>Простые запросы на соединение</p>
+                            <p>Группировка результатов</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img class="point-img" src="./img/points/API-postman.png" alt="API and postman">
+                        <h3 class="point-heading">API и postman</h3>
+                        <div class="point-text">
+                            <p>Стратегия тестирования API</p>
+                            <p>REST API</p>
+                            <p>Postman</p>
+                            <p>...</p>                                               
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills-portfolio-points">
+                    <div class="point">
+                        <img class="point-img" src="./img/points/Test-documentation.jpg" alt="Test documentation">
+                        <h3 class="point-heading">Тестовая документация</h3>
+                        <div class="point-text">
+                            <p>Политика качества</p>
+                            <p>Политика тестирования</p>
+                            <p>План тестирования</p>
+                            <p>Юскейс</p>
+                            <p>Тест-кейс</p>
+                            <p>Чек-лист</p>
+                            <p>Баг репорт</p>
+                            <p>Тест репорт</p>                            
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img class="point-img" src="./img/points/Bug-trackers.jpg" alt="Bug trackers">
+                        <h3 class="point-heading">Баг-трекеры и инструменты управления тестированием</h3>
+                        <div class="point-text">
+                            <p>Jira</p>
+                            <p>TestRail</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img class="point-img" src="./img/points/Python-selenium.png" alt="Selenium with Python">
+                        <h3 class="point-heading">Selenium с Python</h3>
+                        <div class="point-text">
+                            <p>Selenium WebDriver</p>
+                            <p>PyTest</p>
+                            <p>Тесты с Page Object</p>
+                            <p>Фреймворки для Page Object</p>
+                                       
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills-portfolio-points">
+                    <div class="point">
+                        <img class="point-img" src="./img/points/Devtools.jpg" alt="Devtools">
+                        <h3 class="point-heading">Devtools</h3>
+                        <div class="point-text">
+                            <p>Селекторы элементов XPath или CSS</p>
+                            <p>Информация о HTTP-запросах</p>
+                            <p>Моделирование производительности сети</p>
+                            <p>Эмуляция устройства</p>
+                            <p>Работа с куки</p>
+                            <p>Тестирование локализации</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img class="point-img" src="./img/points/Git.jpg" alt="Git">
+                        <h3 class="point-heading">Git</h3>
+                        <div class="point-text">
+                            <p>Создание репозитория</p>
+                            <p>Добавление файлов</p>
+                            <p>Создание коммитов</p>
+                            <p>Создание веток</p>
+                            <p>Объединение веток</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img class="point-img" src="./img/points/Client-server.jpg" alt="Client-server">
+                        <h3 class="point-heading">Client-server</h3>
+                        <div class="point-text">
+                            <p>Типы сетевых протоколов</p>
+                            <p>Принципы построения клиент-серверной системы</p>
+                            <p>Сетевая модель OSI</p>
+                            <p>HTTP</p>                                   
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills-portfolio-points">
+                    <div class="point">
+                        <img class="point-img" src="./img/points/html-css.jpg" alt="HTML and CSS">
+                        <h3 class="point-heading">HTML и CSS</h3>
+                        <div class="point-text">
+                            <p>Структура HTML-документа</p>
+                            <p>Элементы HTML</p>
+                            <p>Синтаксис CSS</p>
+                            <p>Составные селекторы</p>
+                            <p>Flexbox</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img class="point-img" src="./img/points/SQL.jpg" alt="SQL">
+                        <h3 class="point-heading">SQL</h3>
+                        <div class="point-text">
+                            <p>Information</p>
+                            <p>Information</p>
+                            <p>Information</p>
+                            <p>Information</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img class="point-img" src="./img/points/API.jpg" alt="API">
+                        <h3 class="point-heading">API</h3>
+                        <div class="point-text">
+                            <p>Information</p>
+                            <p>Information</p>
+                            <p>Information</p>
+                            <p>Information</p>                                    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts-content">
+                    <div class="contacts-about">
+                        <h2 class="contacts-heading" id="contacts">Контакты</h2>
+                        <div class="contacts-text">
+                            <p>Вы можете связаться со мной по любому из указанных здесь контактов</p>
+                        </div>
+                    </div>
+                    <div class="contacts-links">
+                        <div class="contacts-link">
+                            <a href="https://t.me/memnum_oldum"><img class="contacts-link-img"  src="img/links/Telegram.jpg" alt="Telegram"></a>
+                            <a class="contacts-link-heading" href="https://t.me/memnum_oldum" >@memnum_oldum</a>
+                        </div>
+                        <div class="contacts-link">
+                            <img class="contacts-link-img" src="img/links/Email.jpg" alt="Email">
+                            <h3 class="contacts-link-heading">monkey22@yandex.ru</h3>
+                        </div>
+                        <div class="contacts-link">
+                            <img class="contacts-link-img" src="img/links/WattsApp.jpg" alt="WattsApp">
+                            <h3 class="contacts-link-heading">+79030938233</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>        
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+.skills-portfolio {
+    padding-top: 90px;
+    padding-bottom: 90px;  
+}
+
+.skills-portfolio-heading {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.skills-portfolio-info {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.skills-portfolio-points {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    column-gap: 20px;
+    padding-bottom: 30px;
+}
+
+.point {
+    width: 300px;
+
+}
+
+.point-img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    opacity: calc(0.9);
+    
+
+}
+
+.point-heading {
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+
+
+}
+
+.point-text {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+

@@ -1,0 +1,40 @@
+.header {
+    width: 1440px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 33px;  
+    
+}
+
+.border-bottom {
+    width: 940px;
+    height: 33px;
+    border-bottom: 1px solid #828282;
+
+}
+
+.header-nav {
+    color: #828282;
+    font-weight: bold;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-nav li:first-child {
+    color: #070707;
+}
+
+.header-nav a:hover {
+    transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+    color:#070707;
+}
