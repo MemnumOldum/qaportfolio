@@ -55,4 +55,12 @@
 
 }
 
+.point-text a {
+    border-bottom: 1px solid;
+        
+}
 
+.point-text a:hover {
+    border-bottom: 2px solid;
+        
+}
